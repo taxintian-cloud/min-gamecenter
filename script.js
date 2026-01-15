@@ -168,8 +168,8 @@ function playDice() {
 	
 
 /*結果を画面に表示する*/
-	/*document.getElementById("dice1").textContent = "サイコロ1: " + dice1;
-	document.getElementById("dice2").textContent = "サイコロ2: " + dice2;*/
+	document.getElementById("dice1").textContent = "サイコロ1: " + dice1;
+	document.getElementById("dice2").textContent = "サイコロ2: " + dice2;
 
 
 //まず色クラスを全部消す
@@ -340,4 +340,5 @@ setTimeout(()=> {
 	}
 },1300);
 }
+
 	
