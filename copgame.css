@@ -1,0 +1,183 @@
+body {
+	font-family: "Noto Sans JP", "Hiragino Kaku Gothic ProN", sans-serif;
+	background-color: #f0f8ff;
+	text-align: center;
+	padding: 30px;
+	color: #333;
+}
+
+h1 {
+	font-size: 2em;
+	margin-bottom: 20px;
+}
+
+button {
+	margin: 10px;
+	padding: 10px 20px;
+	font-size: 1em;
+	background-color: #4caf50;
+	color: white;
+	border: none;
+	border-radius: 8px;
+	cursor: pointer;
+	transition: background-color 0.3s;
+}
+
+button:hover {
+	background-color: #45a049;
+	opacity: 0.9;
+}
+
+#gameArea {
+	margin: 30px auto;
+	padding: 20px;
+	background-color: #ffffff;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.1);
+	width: 350px;
+}
+
+button.janken {
+	background-color: #4caf50;
+}
+
+button.dice {
+	background-color: #2196f3;
+}
+
+#jankenResult, #total {
+	font-size: 1.2em;
+	margin-top: 15px;
+	line-height: 1.66;
+}
+
+input {
+	padding: 10px;
+	font-size: 1em;
+	border-radius: 6px;
+	border: 1px solid #ccc;
+	width: 200px;
+}
+
+.result-box {
+	margin-top: 20px;
+	padding: 15px;
+	background-color: #f7fbff;
+	border-left: 5px solid #2196f3;
+	border-radius: 8px;
+	font-size: 1.1em;
+	line-height: 1.6;
+	text-align: left;
+}
+
+.result-box strong {
+	font-size: 1.2em;
+	color: #333;
+}
+
+.result-win {
+	background-color: #e8fce8;
+	border-left: 5px solid #4caf50;
+}
+
+.result-lose {
+	background-color: #ffecec;
+	border-left: 5px solid #f44336;
+}
+
+.result-draw {
+	background-color: #fff8e1;
+	border-left: 5px solid #ff9800;
+}
+
+.dice-lucky {
+	background-color: #e8fce8;
+	border-left: 5px solid #4caf50;
+}
+
+.dice-double {
+	background-color: #e7f3ff;
+	border-left: 5px solid #2196f3;
+}
+
+.dice-normal {
+	background-color: #f5f5f5;
+	border-left: 5px solid #ccc;
+}
+
+.dice-rolling {
+	animation: shake 0.3s infinite;
+}
+
+@keyframes shake {
+	0% { transform: rotate(0deg); }
+	25% { transform: rotate(3deg); }
+	50% { transform: rotate(0deg); }
+	75% { transform: rotate(-3deg); }
+	100% { transform: rotate(0deg); }
+
+}
+
+.slot-win {
+	animation: slotFlash 0.5s ease-in-out 3;
+	background-color: gold;
+	color: black;
+	border-radius: 8px;
+	padding: 5px;
+}
+
+@keyframes slotFlash {
+	0% { box-shadow:0 0 5px gold; }
+	50% { box-shadow:0 0 20px gold; }
+	100% { box-shadow:0 0 5px gold; }
+}
+
+.reel {
+	width: 60px;
+	height: 60px;
+	overflow: hidden;
+	border: 2px solid #333;
+	border-radius: 8px;
+	font-size: 40px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.reel-inner {
+	display: flex;
+	flex-direction: column;
+	transition: transform 0.5s ease-out;
+}
+.reel-inner.stop-bounce {
+	animation: bounceStop 0.25s ease-out;
+}
+@keyframes bounceStop {
+	0% {transform: translateY(0px);}
+	40%{transform: translateY(10px);}
+	100%{transform: translateY(0px);}
+}
+.reel.flash {
+	box-shadow: 0 0 20px gold,0 0 40px gold;
+	transition: box-shadow 0.3s ease;
+}
+@keyframes flashwin {
+	0% { box-shadow:0 0 10px gold; }
+	50% { box-shadow:0 0 30px gold; }
+	100% { box-shadow:0 0 10px gold }
+}
+.reel.flash-animate {
+	animation: flashwin 0.6s ease-in-out infinite;
+}
+#slotArea {
+	display: flex;
+	flex-direction: row;
+	gap: 10px;
+}
+.reel-inner div{
+	width: 60px;
+	height: 60px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 40px;
+}
