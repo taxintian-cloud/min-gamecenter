@@ -1,4 +1,6 @@
-![Mini Game Center](./banner-wide.png)
+<p align="center">
+  <img src="./banner-wide.png" width="100%" alt="Mini Game Center Banner">
+</p>
 # 公開ページ
 ↓　ゲームはこちらから遊べます　！↓
 
@@ -78,6 +80,7 @@
 ・効果音の追加
 ・スマホ向けのUIの最適化
 ・新しいゲームの追加
+
 
 
 
