@@ -22,13 +22,16 @@
 ## 🎮 スクリーンショット
 
 ### ✊ じゃんけんゲーム
-![じゃんけん](./janken.png)
-
-### 🎲 サイコロゲーム
-![サイコロ](./dice.png)
-
-### 🎰 スロットゲーム
-![スロット](./slot.png)
+<h2>🎮 スクリーンショット</h2>
+<p align="center">
+  <img src="./janken.png" width="100%" alt="じゃんけんゲーム">
+</p>
+<p align="center">
+  <img src="./dice.png" width="100%" alt="サイコロゲーム">
+</p>
+<p align="center">
+  <img src="./slot.png" width="100%" alt="スロットゲーム">
+</p>
 
 ## 🎮 それぞれの特徴
 1．じゃんけんゲーム
@@ -80,6 +83,7 @@
 ・効果音の追加
 ・スマホ向けのUIの最適化
 ・新しいゲームの追加
+
 
 
 
