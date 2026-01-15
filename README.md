@@ -1,4 +1,4 @@
-![Mini Game Center](./banner.png)
+![Mini Game Center](./banner-wide.png)
 # 公開ページ
 ↓　ゲームはこちらから遊べます　！↓
 
@@ -78,6 +78,7 @@
 ・効果音の追加
 ・スマホ向けのUIの最適化
 ・新しいゲームの追加
+
 
 
 
