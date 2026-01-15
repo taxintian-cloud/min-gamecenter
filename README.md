@@ -1,7 +1,7 @@
 # 公開ページ
 ↓　ゲームはこちらから遊べます　！↓
 
-https://taxintian-cloud.github.io/min-gamecenter/
+今すぐプレイする🎮https://taxintian-cloud.github.io/min-gamecenter/
 
 # Webゲームコレクション
 
@@ -77,6 +77,7 @@ https://taxintian-cloud.github.io/min-gamecenter/
 ・効果音の追加
 ・スマホ向けのUIの最適化
 ・新しいゲームの追加
+
 
 
 
